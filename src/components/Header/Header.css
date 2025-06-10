@@ -1,0 +1,29 @@
+#change{
+    background-color: #007bff;
+    color: #fff;
+    height: 60px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0%;
+    padding: 15px 20px;
+    z-index: 999;
+}
+.c1{
+    display: flex;
+    justify-content: end;
+    padding-left: 20px;
+}
+a{
+    color:#fff;
+    padding: 15px 20px;
+}
+
+button{
+    margin-top: 5px;
+    height:35px;
+    background-color:green;
+    color: #fff;
+}

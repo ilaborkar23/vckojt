@@ -1,0 +1,38 @@
+#universal{
+    background-color:#ADEED9;
+    overflow: hidden;
+  
+}
+#title{
+    text-align: center;
+    color:blue;
+    text-align: center;
+}
+.main{
+    text-align: center;
+    margin: 100px 200px 100px 200px;
+    border-radius: 5px;
+    background-color:#fff;
+    overflow: scroll;
+}
+.image{
+    height: 200px;
+    width: 600px;
+}
+#center{
+    text-align: center;
+}
+.c3{
+    text-align:left;
+    margin-left: 8px;;
+}
+#id1{
+    background-color: aquamarine;
+    color:#fff;
+    margin-left: 65px;
+    
+}
+table{
+    text-align: center;
+    margin-left: 50px;
+}
