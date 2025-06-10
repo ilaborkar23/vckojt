@@ -16,6 +16,7 @@ const CoursesPage=()=>{
                     knowledge and skills demanded by today's dynamic global landscape. 
                     Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
                 <h1>Discover Campus Life </h1>
+                <video  id="v1"src="https://vck.codewonders.in/assets/college-tour-FAmcnyfF.mp4" controls="autoplay"> </video>
                 <h1> Undergraduate program (UG)</h1>
                     <ul className="c3"> Bachelor of Science (B.Sc)</ul>
                         <ul className="c3">

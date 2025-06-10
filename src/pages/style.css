@@ -1,12 +1,41 @@
 #universal{
     background-color:#ADEED9;
-    overflow: hidden;
-  
 }
+
 #title{
     text-align: center;
     color:blue;
     text-align: center;
+}
+#place{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+#id3{
+    height:400px;
+    width: 100%;
+}
+#id4{
+    color:#fff;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left:30%
+    
+}
+#id5{
+    color:#fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left :40%;
+}
+#id6{
+    color:#fff;
+    position: absolute;
+    top: 60%;
+    left:45%
 }
 .main{
     text-align: center;
@@ -14,6 +43,9 @@
     border-radius: 5px;
     background-color:#fff;
     overflow: scroll;
+}
+#v1{
+    height: 500px;
 }
 .image{
     height: 200px;
@@ -35,4 +67,6 @@
 table{
     text-align: center;
     margin-left: 50px;
+    margin-top: 4px;
 }
+ 

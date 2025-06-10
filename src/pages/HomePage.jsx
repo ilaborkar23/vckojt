@@ -7,10 +7,15 @@ import Footer from '../components/Footer/Footer'
 
 const HomePage=()=>{
     return (
-        <div id="universal">
+        <div id="universal" overflow="hidden">
             <Header/>
             <div className='main'>
-                <img src='Images/first.jpeg'/>
+                <div id="start">
+                <img  id="id3"src='Images/first.jpeg'/>
+                <p id='id4'> Welcome to Vivekanand College </p>
+                <p id="id5"> Your journey to excellence starts here .</p>
+                <a id="id6" href="/admissionpage"><button> Apply Now! </button></a>
+                </div>
                 <p>Vivekanand College is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic
                      development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering
                       them to achieve their full potential.</p>
@@ -27,8 +32,10 @@ const HomePage=()=>{
                     <li>Strong Placements: Excellent career opportunities with leading companies.</li>
                 </ul>
                 <h1>Campus Life & Facilities </h1>
+                <div id="place">
                 <img className='image' src="Images/image1.jpeg" alt='college image 1 '/>
                 <img src="Images/image2.jpeg" alt="college image 2"/>
+                </div>
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <p id="center"> Ready to explore our courses?</p>
                

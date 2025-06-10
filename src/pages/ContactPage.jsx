@@ -28,10 +28,13 @@ const ContactPage=()=>{
                 <p> Email : studentsupport@vivekanandcollege.edu </p>
 
                 <h1> Find Us on the Map </h1>
-                <a href=""> View on Google Maps</a>
+                <p> <a href="https://maps.google.com/?q=Vivekanand+College"> View on Google Maps </a> 
+                <br>
+                </br></p>
 
                 <h1> Send Us a Message </h1>
-                <p> </p>
+               <p> Phone : +91 12345 67890</p>
+                <p> Email: info@vivekanandcollege.edu</p>
             </div>
             <Footer/>
         </div>

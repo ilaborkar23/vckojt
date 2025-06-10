@@ -2,6 +2,7 @@ import React from 'react'
 
 import "./style.css"
 import Header from '../components/Header/Headre'
+import Footer from '../components/Footer/Footer'
 const AboutPage=()=>{
     return(
         <div id="universal">
@@ -30,6 +31,7 @@ const AboutPage=()=>{
                 <h1>Our History </h1>
                     <p>Our journey began with a vision to make quality education available to all, and we continue that legacy today.</p>
             </div>
+            <Footer/>
         </div>
     )
 }

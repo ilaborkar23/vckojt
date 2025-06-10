@@ -1,7 +1,7 @@
 #change{
     background-color: #007bff;
     color: #fff;
-    height: 60px;
+    height: 70px;
     width: 1300px;
     display: flex;
     align-items: center;
@@ -10,7 +10,9 @@
     top:0%;
     padding: 15px 20px;
     z-index: 999;
+    font-size: 22px;
 }
+
 .c1{
     display: flex;
     justify-content: end;
@@ -22,8 +24,9 @@ a{
 }
 
 button{
-    margin-top: 5px;
     height:35px;
     background-color:green;
-    color: #fff;
+    color: #fff;  
+    text-align: center; 
+    padding: 5px 10px;
 }

@@ -11,7 +11,7 @@ const Header=()=>{
             <Link to="/aboutpage">About </Link>
             <Link to="/coursespage">Courses</Link>
             <Link to="/contactpage">Contact</Link>
-            <Link to="/admissionpage"><button> Apply Now </button></Link>
+            <Link to="/admissionpage"><button> Apply Now!</button></Link>
 
         </nav>
     </header>

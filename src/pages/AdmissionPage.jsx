@@ -50,7 +50,11 @@ const AdmissionPage=()=>{
                     <li>Fee Payment: Complete the admission by paying the required fees</li>
                 </ol>
                 <p>For detailed information on postgraduate program admissions, specific program syllabi, 
-                    and fee structures, please visit our <a href="coursespage">Courses</a> or <a href="contactpage">Contact us</a> directly.</p>
+                    and fee structures, please visit our 
+                    <a href="coursespage"> Courses </a> 
+                    or 
+                    <a href="contactpage"> Contact us</a> 
+                    directly.</p>
             </div>
             <Footer/>
         </div>
