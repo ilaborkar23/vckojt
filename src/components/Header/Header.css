@@ -12,7 +12,15 @@
     z-index: 999;
     font-size: 22px;
 }
-
+@media(min-width:200px)and (max-width:768px){
+    #change{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top:60%;
+        left:30%;
+    }
+}
 .c1{
     display: flex;
     justify-content: end;

@@ -5,3 +5,15 @@ footer{
     text-align: center;
     position: sticky;
 }
+#chat{
+    height: 80px;
+    position:fixed;
+    right: 20px;
+    bottom: 120px;
+    border-radius: 50%;
+    background-color: #52d2d5;
+}
+#image{
+    height:60px;
+    width: auto;
+}
