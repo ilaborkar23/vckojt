@@ -4,7 +4,7 @@ const Header=()=>{
  return (
     <header id="change">
          <div>
-                <a href="/homepage">Vivekanand College</a>
+                <a href="/">Vivekanand College</a>
             </div>
         <nav className="c1">
             <Link to="/"> Home </Link>
