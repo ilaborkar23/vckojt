@@ -1,12 +1,19 @@
 #universal{
-    background-color:#ADEED9;
+    background-color: #ADEED9;
     color:black;
+    position:relative;
+    overflow:hidden;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
 }
-
 #title{
     text-align: center;
     color:blue;
-    text-align: center;
+}
+#start{
+    position: relative;
+
 }
 #place{
     display: flex;
@@ -15,35 +22,39 @@
 }
 #id3{
     height:400px;
-    width: 100%;
+    width: 90%;
+    border-radius: 5px;
+    filter: brightness(60%);
 }
 #id4{
     color:#fff;
     font-size: 50px;
-    position: absolute;
-    top: 30%;
-    left:30%
-    
+    position:absolute;    
+    top: 20%;
+    left:10% 
 }
 #id5{
     color:#fff;
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left :40%;
+    left :30%;
 }
 #id6{
-    color:#fff;
     position: absolute;
-    top: 60%;
-    left:45%
+    top: 70%;
+    left:40%;
+    background-color: green;
+    color: #fff;
 }
 .main{
     text-align: center;
-    margin: 100px 200px 100px 200px;
+    margin:50px 200px;
     border-radius: 5px;
     background-color:#fff;
-    overflow: scroll;
+    position: relative;
+    overflow-y:auto;
+    height:100vh;
 }
 #v1{
     height: 500px;
@@ -70,4 +81,10 @@ table{
     margin-left: 50px;
     margin-top: 4px;
 }
- 
+.hovered{
+    color: blue;
+}
+.button{
+    background-color: green;
+    color: #fff;
+}

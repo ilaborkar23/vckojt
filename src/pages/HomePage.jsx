@@ -4,17 +4,16 @@ import CoursesPage from './Coursespage'
 import Header from '../components/Header/Headre'
 import Footer from '../components/Footer/Footer'
 
-
 const HomePage=()=>{
     return (
-        <div id="universal" overflow="hidden">
+        <div id="universal">
             <Header/>
             <div className='main'>
                 <div id="start">
-                <img  id="id3"src='Images/first.jpeg'/>
-                <p id='id4'> Welcome to Vivekanand College </p>
-                <p id="id5"> Your journey to excellence starts here .</p>
-                <a id="id6" href="/admissionpage"><button> Apply Now! </button></a>
+                    <img  id="id3"src='Images/first.jpeg'/>
+                    <p id='id4'> <b>Welcome to Vivekanand College !</b></p>
+                    <p id="id5"> Your journey to excellence starts here .</p>
+                    <a  href="/admissionpage"><button id="id6"> Apply Now! </button></a>
                 </div>
                 <p>Vivekanand College is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic
                      development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering
@@ -39,7 +38,7 @@ const HomePage=()=>{
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <p id="center"> Ready to explore our courses?</p>
                
-                <a href='admissionpage'><button > Explore Courses </button></a>            
+                <a href="coursespage"><button className='button' > Explore Courses </button></a>            
                 </div>
             <Footer/>    
         </div>

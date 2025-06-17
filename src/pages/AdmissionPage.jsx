@@ -50,15 +50,13 @@ const AdmissionPage=()=>{
                     <li>Fee Payment: Complete the admission by paying the required fees</li>
                 </ol>
                 <p>For detailed information on postgraduate program admissions, specific program syllabi, 
-                    and fee structures, please visit our 
-                    <a href="coursespage"> Courses </a> 
-                    or 
-                    <a href="contactpage"> Contact us</a> 
+                    and fee structures, please visit our <a  className="hovered" href='coursespage'> Courses </a> or
+                     <a className=" hovered" href="contactpage"> Contact </a>
                     directly.</p>
             </div>
             <Footer/>
         </div>
 
     )
-}
+}   
 export default AdmissionPage
