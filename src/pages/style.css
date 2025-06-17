@@ -21,8 +21,10 @@
     gap: 6px;
 }
 #id3{
-    height:400px;
-    width: 90%;
+    height:300px;
+    width: 100%;
+    object-fit: fill;
+    padding:15px;
     border-radius: 5px;
     filter: brightness(60%);
 }
@@ -48,6 +50,7 @@
     color: #fff;
 }
 .main{
+    height:500px;
     text-align: center;
     margin:50px 200px;
     border-radius: 5px;
