@@ -1,8 +1,10 @@
-#universal{
+.universal{
     background-color: #ADEED9;
     color:black;
+    /* min-height: 100vh; */
+    min-width:320px;
+    width: 100vw;
     position:relative;
-    overflow:hidden;
     height:100vh;
     display:flex;
     flex-direction: column;
@@ -13,7 +15,6 @@
 }
 #start{
     position: relative;
-
 }
 #place{
     display: flex;
@@ -33,7 +34,7 @@
     font-size: 50px;
     position:absolute;    
     top: 20%;
-    left:10% 
+    left:20% 
 }
 #id5{
     color:#fff;
@@ -52,10 +53,11 @@
 .main{
     height:500px;
     text-align: center;
-    margin:50px 200px;
+    margin:90px 50px 80px 50px;
     border-radius: 5px;
     background-color:#fff;
-    position: relative;
+    position:relative;
+    overflow-x: hidden;
     overflow-y:auto;
     height:100vh;
 }
@@ -81,9 +83,10 @@
 }
 table{
     text-align: center;
-    margin-left: 50px;
+    margin-left:300px;
     margin-top: 4px;
 }
+
 .hovered{
     color: blue;
 }
@@ -91,3 +94,95 @@ table{
     background-color: green;
     color: #fff;
 }
+@media(max-width:575px){
+    .universal{
+        min-width: 320px;
+    }
+    .main{
+        min-height:calc(100vh -120px);
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    #start {
+        min-height:40vh;
+    } 
+    #id3{
+        height: clamp(200px,40vh, 300px);
+        padding: 0.5rem;
+    }
+    #id4{
+        font-size: clamp(0.9rem, 4vw, 1.1rem);
+    }
+    #id6{
+        padding:0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    #place  { 
+        flex-direction:column ;
+        align-items:  center  ;
+        gap :0.5rem  ;
+    } 
+    
+    .image  {
+        width :  100%;
+        max-width :   350px; ;
+        height:180px;
+    }
+    
+    .c3  {
+        padding:  0  0.5rem;
+    } 
+    
+    .c3 li {
+        font-size: 0.9rem;
+    }
+    table{
+        margin:auto;
+        width: fit-content;
+    }
+    .button  {
+        width: 100%; 
+        max-width:250px;
+        padding: 0.75rem 1.5rem ;
+    } 
+    
+ @media (min-width :576px ) {
+    .main    {
+        margin:1rem; 
+        padding:1.5rem ;
+    } 
+    
+    #place{
+        justify-content: space-around; ;
+    } 
+    
+    .image{
+        flex:  1 1 250px ;
+        max-width:  300px; ;
+    } 
+    table{
+         margin: auto; 
+    }
+ } 
+@media(min-width :768px){
+    .main{
+        margin: 1.5rem 2rem;
+        padding:  2rem ;
+    } 
+    
+    #place #place   {
+        justify-content:center;
+        gap:1.5rem ;
+    } 
+    
+    .image{
+        flex:  0   1  45% ;
+        max-width: 400px;
+    } 
+    
+    table{
+        display:table; 
+        white-space: normal;
+        margin: auto; 
+    } 
+ } }

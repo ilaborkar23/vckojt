@@ -1,8 +1,9 @@
 footer{
     height: 50px;
+    width: 100%;
     background-color: grey;
     color: #fff;
     text-align: center;
-    position: sticky;
+    position: fixed;
     bottom: 0%;
 }

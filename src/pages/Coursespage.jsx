@@ -6,9 +6,8 @@ import ContactPage from './ContactPage'
 
 
 const CoursesPage=()=>{
-
     return(
-        <div id="universal">
+        <div className="universal" style={{overflow:"hidden"}}>
             <Header/>
             <div className='main'>
                 <h1 id="title">Our Academic Programs</h1>

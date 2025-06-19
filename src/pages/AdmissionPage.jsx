@@ -4,7 +4,7 @@ import Header from '../components/Header/Headre'
 import Footer from '../components/Footer/Footer'
 const AdmissionPage=()=>{
     return(
-        <div id="universal">
+        <div className="universal" style={{overflow:"hidden"}}>
             <Header/>
             <div className='main'>
                 <h1 id="title">Admissions at Vivekanand College</h1>

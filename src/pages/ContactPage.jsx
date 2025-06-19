@@ -1,13 +1,13 @@
 import React from 'react'
-
 import "./style.css"
 import Header from '../components/Header/Headre'
 import Footer from '../components/Footer/Footer'
+
 const ContactPage=()=>{
     return (
-        <div id="universal">
+        <div className='universal'>
             <Header/>
-            <div className='main'>
+            <div className='main'> 
                 <h1 id="title"> Contact Us</h1>
                 <p> we'd love to hear from you! Whether you have questions about admissions, programs, or campus life , our team is here to help</p>
                 <h1> General Enquiries </h1>
@@ -33,9 +33,15 @@ const ContactPage=()=>{
                 <h1> Send Us a Message </h1>
                <p> Phone : +91 12345 67890</p>
                 <p> Email: info@vivekanandcollege.edu</p>
+
             </div>
+
             <Footer/>
         </div>
     )
 }
 export default ContactPage
+
+//  <div className='main'>
+                
+//             // </div>

@@ -6,7 +6,7 @@ import Footer from '../components/Footer/Footer'
 
 const HomePage=()=>{
     return (
-        <div id="universal">
+        <div className="universal" style={{overflow:"hidden"}}>
             <Header/>
             <div className='main'>
                 <div id="start">
@@ -33,7 +33,7 @@ const HomePage=()=>{
                 <h1>Campus Life & Facilities </h1>
                 <div id="place">
                 <img className='image' src="Images/image1.jpeg" alt='college image 1 '/>
-                <img src="Images/image2.jpeg" alt="college image 2"/>
+                <img  className='image' src="Images/image2.jpeg" alt="college image 2"/>
                 </div>
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <p id="center"> Ready to explore our courses?</p>
