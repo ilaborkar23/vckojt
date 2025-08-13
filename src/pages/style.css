@@ -94,6 +94,13 @@ table{
     background-color: green;
     color: #fff;
 }
+@media(max-width:230px){
+    #id4{
+        position: absolute;
+        top:0.5%;
+        left: 10px;
+    }
+}
 @media(max-width:575px){
     .universal{
         min-width: 320px;
@@ -111,9 +118,21 @@ table{
         padding: 0.5rem;
     }
     #id4{
-        font-size: clamp(0.9rem, 4vw, 1.1rem);
+        position: absolute;
+        top:25%;
+        left: 30px;
+        font-size: 20px;
+    }
+    #id5{
+        position: absolute;
+        top: 50%;
+        left: 0.5%;
+        font-size:20px;
     }
     #id6{
+        position: absolute;
+        top:75%;
+        font-size: 40px;
         padding:0.6rem 1.2rem;
         font-size: 0.9rem;
     }
@@ -151,6 +170,25 @@ table{
         margin:1rem; 
         padding:1.5rem ;
     } 
+    #id4{
+        position: absolute;
+        top:25%;
+        left: 30px;
+        font-size: 20px;
+    }
+    #id5{
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        font-size:20px;
+    }
+    #id6{
+        position: absolute;
+        top:80%;
+        font-size: 20px;
+        padding:0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
     
     #place{
         justify-content: space-around; ;
@@ -169,8 +207,7 @@ table{
         margin: 1.5rem 2rem;
         padding:  2rem ;
     } 
-    
-    #place #place   {
+    #place   {
         justify-content:center;
         gap:1.5rem ;
     } 
@@ -179,6 +216,11 @@ table{
         flex:  0   1  45% ;
         max-width: 400px;
     } 
+    #id4{
+        position:absolute;
+        top:0.5%;
+        left:10%;
+    }
     
     table{
         display:table; 
