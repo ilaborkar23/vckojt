@@ -1,7 +1,6 @@
 .universal{
     background-color: #ADEED9;
     color:black;
-    /* min-height: 100vh; */
     min-width:320px;
     width: 100vw;
     position:relative;
@@ -94,14 +93,14 @@ table{
     background-color: green;
     color: #fff;
 }
-@media(max-width:230px){
+@media(max-width:230px) and (max-width:575.98px){
     #id4{
         position: absolute;
         top:0.5%;
         left: 10px;
     }
 }
-@media(max-width:575px){
+@media(max-width:575.98px)and(max-width:813px){
     .universal{
         min-width: 320px;
     }
@@ -126,8 +125,8 @@ table{
     #id5{
         position: absolute;
         top: 50%;
-        left: 0.5%;
-        font-size:20px;
+        left: 10%;
+        font-size:15px;
     }
     #id6{
         position: absolute;
@@ -165,7 +164,7 @@ table{
         padding: 0.75rem 1.5rem ;
     } 
     
- @media (min-width :576px ) {
+ @media (min-width :814px ) and (max-width:877px){
     .main    {
         margin:1rem; 
         padding:1.5rem ;
@@ -202,7 +201,7 @@ table{
          margin: auto; 
     }
  } 
-@media(min-width :768px){
+@media(min-width :768px)and (max-width:991px){
     .main{
         margin: 1.5rem 2rem;
         padding:  2rem ;
@@ -227,4 +226,5 @@ table{
         white-space: normal;
         margin: auto; 
     } 
- } }
+ }
+     }
