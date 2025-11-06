@@ -1,230 +1,184 @@
-.universal{
-    background-color: #ADEED9;
-    color:black;
-    min-width:320px;
-    width: 100vw;
-    position:relative;
-    height:100vh;
-    display:flex;
-    flex-direction: column;
+.universal {
+  background-color: #ADEED9;
+  color: black;
+  min-width: 320px;
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-#title{
-    text-align: center;
-    color:blue;
+#title {
+  text-align: center;
+  color: blue;
 }
-#start{
-    position: relative;
+#start {
+  position: relative;
 }
-#place{
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
+#place {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
 }
-#id3{
-    height:300px;
-    width: 100%;
-    object-fit: fill;
-    padding:15px;
-    border-radius: 5px;
-    filter: brightness(60%);
+#id3 {
+  height: 300px;
+  width: 100%;
+  object-fit: fill;
+  padding: 15px;
+  border-radius: 5px;
+  filter: brightness(60%);
 }
-#id4{
-    color:#fff;
-    font-size: 50px;
-    position:absolute;    
-    top: 20%;
-    left:20% 
+#id4 {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
 }
-#id5{
-    color:#fff;
+#id5 {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+#id6 {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  background-color: green;
+  color: #fff;
+}
+.main {
+  text-align: center;
+  margin: 90px 50px 80px 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
+}
+#v1 {
+  height: 500px;
+}
+.image {
+  height: 200px;
+  width: 600px;
+}
+#center {
+  text-align: center;
+}
+.c3 {
+  text-align: left;
+  margin-left: 8px;
+}
+#id1 {
+  background-color: aquamarine;
+  color: #fff;
+  margin-left: 65px;
+}
+table {
+  text-align: center;
+  margin: 0 auto; 
+  margin-top: 4px;
+  border-collapse: collapse;
+  width: 80%;
+}
+.hovered {
+  color: blue;
+}
+.button {
+  background-color: green;
+  color: #fff;
+}
+/* Extra small devices */
+@media (max-width: 575.98px) {
+  .universal {
+    min-width: 320px;
+  }
+
+  .main {
+    min-height: calc(100vh - 120px);
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  #start {
+    min-height: 40vh;
+  }
+
+  #id3 {
+    height: clamp(200px, 40vh, 300px);
+    padding: 0.5rem;
+  }
+
+  #id4 {
+    top: 25%;
+    left: 30px;
     font-size: 20px;
-    position: absolute;
+  }
+
+  #id5 {
     top: 50%;
-    left :30%;
-}
-#id6{
-    position: absolute;
-    top: 70%;
-    left:40%;
-    background-color: green;
-    color: #fff;
-}
-.main{
-    height:500px;
-    text-align: center;
-    margin:90px 50px 80px 50px;
-    border-radius: 5px;
-    background-color:#fff;
-    position:relative;
-    overflow-x: hidden;
-    overflow-y:auto;
-    height:100vh;
-}
-#v1{
-    height: 500px;
-}
-.image{
-    height: 200px;
-    width: 600px;
-}
-#center{
-    text-align: center;
-}
-.c3{
-    text-align:left;
-    margin-left: 8px;;
-}
-#id1{
-    background-color: aquamarine;
-    color:#fff;
-    margin-left: 65px;
-    
-}
-table{
-    text-align: center;
-    margin-left:300px;
-    margin-top: 4px;
+    left: 10%;
+    font-size: 15px;
+  }
+
+  #id6 {
+    top: 75%;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  #place {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 350px;
+    height: 180px;
+  }
+
+  .c3 {
+    padding: 0 0.5rem;
+  }
+
+  .c3 li {
+    font-size: 0.9rem;
+  }
+
+  table {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 250px;
+    padding: 0.75rem 1.5rem;
+  }
 }
 
-.hovered{
-    color: blue;
+/* Medium devices */
+@media (min-width: 576px) and (max-width: 813px) {
+  .main {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  #id4 {
+    top: 25%;
+    left: 30px;
+    font-size: 20px;
+  }
+
+  #id5 {
+    top: 45%;
+    left: 10%;
+    font-size: 20px;
+  }
 }
-.button{
-    background-color: green;
-    color: #fff;
-}
-@media(max-width:230px) and (max-width:575.98px){
-    #id4{
-        position: absolute;
-        top:0.5%;
-        left: 10px;
-    }
-}
-@media(max-width:575.98px)and(max-width:813px){
-    .universal{
-        min-width: 320px;
-    }
-    .main{
-        min-height:calc(100vh -120px);
-        padding: 1rem;
-        margin: 0.5rem;
-    }
-    #start {
-        min-height:40vh;
-    } 
-    #id3{
-        height: clamp(200px,40vh, 300px);
-        padding: 0.5rem;
-    }
-    #id4{
-        position: absolute;
-        top:25%;
-        left: 30px;
-        font-size: 20px;
-    }
-    #id5{
-        position: absolute;
-        top: 50%;
-        left: 10%;
-        font-size:15px;
-    }
-    #id6{
-        position: absolute;
-        top:75%;
-        font-size: 40px;
-        padding:0.6rem 1.2rem;
-        font-size: 0.9rem;
-    }
-    #place  { 
-        flex-direction:column ;
-        align-items:  center  ;
-        gap :0.5rem  ;
-    } 
-    
-    .image  {
-        width :  100%;
-        max-width :   350px; ;
-        height:180px;
-    }
-    
-    .c3  {
-        padding:  0  0.5rem;
-    } 
-    
-    .c3 li {
-        font-size: 0.9rem;
-    }
-    table{
-        margin:auto;
-        width: fit-content;
-    }
-    .button  {
-        width: 100%; 
-        max-width:250px;
-        padding: 0.75rem 1.5rem ;
-    } 
-    
- @media (min-width :814px ) and (max-width:877px){
-    .main    {
-        margin:1rem; 
-        padding:1.5rem ;
-    } 
-    #id4{
-        position: absolute;
-        top:25%;
-        left: 30px;
-        font-size: 20px;
-    }
-    #id5{
-        position: absolute;
-        top: 45%;
-        left: 10%;
-        font-size:20px;
-    }
-    #id6{
-        position: absolute;
-        top:80%;
-        font-size: 20px;
-        padding:0.6rem 1.2rem;
-        font-size: 0.9rem;
-    }
-    
-    #place{
-        justify-content: space-around; ;
-    } 
-    
-    .image{
-        flex:  1 1 250px ;
-        max-width:  300px; ;
-    } 
-    table{
-         margin: auto; 
-    }
- } 
-@media(min-width :768px)and (max-width:991px){
-    .main{
-        margin: 1.5rem 2rem;
-        padding:  2rem ;
-    } 
-    #place   {
-        justify-content:center;
-        gap:1.5rem ;
-    } 
-    
-    .image{
-        flex:  0   1  45% ;
-        max-width: 400px;
-    } 
-    #id4{
-        position:absolute;
-        top:0.5%;
-        left:10%;
-    }
-    
-    table{
-        display:table; 
-        white-space: normal;
-        margin: auto; 
-    } 
- }
-     }
